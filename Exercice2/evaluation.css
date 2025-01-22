@@ -1,0 +1,26 @@
+body{
+    background-color: #3889f2;
+}
+
+h2{
+    color: #ffffff;
+}
+
+.highlight{
+    color: #001bc2;
+    font-weight: bold;
+}
+
+li{
+    color: white;
+}
+
+.special{
+    border: 2px solid;
+    background-color: gray;
+}
+
+#first{
+    list-style-type: none;
+    color: yellow;
+}
