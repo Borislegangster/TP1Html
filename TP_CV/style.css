@@ -1,3 +1,5 @@
+/*      Orders       */
+
 *{
     padding: 0px;
     margin: 0px;
@@ -23,48 +25,11 @@ body{
     margin-bottom: 10px;
 }
 
-.left{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 43px;
-}
-
-.right{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-}
-
 .line{
     border: 1px solid black;
     width: 100% !important;
     margin-bottom: 20px !important;
     margin-top: 0px !important;
-}
-
-.left .photo img{
-    width: 220px;
-    height: 220px;
-    border: 1px solid black;
-    float: right;
-}
-
-.left div{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
-.left div p{
-    margin: 8px;
-}
-
-.right div{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
 }
 
 h1{
@@ -99,9 +64,44 @@ p, li{
     text-transform: none;
 }
 
+/*      Left       */
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.left .photo img{
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    float: right;
+}
+
+.left div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.left div p{
+    margin: 8px;
+}
+
 i{
     color: black !important;
     font-size: 20px;
+}
+
+/*      Right       */
+
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 #text{
@@ -122,6 +122,12 @@ li{
 
 .formation div{
     margin-top: 10px;
+}
+
+.right div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 span{
