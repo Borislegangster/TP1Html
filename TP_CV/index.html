@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadonnees obligatoire -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Metadonnees principales du site -->
+        <meta name="author" content="Murielle">
+        <meta name="title" content="Structure de base HTML" /> 
+        <meta name="description" content="Présentation de la structure de base d'une page HTML">
+
+        <!-- Metadonnees twitter -->
+        <meta name="twitter:title" property="og:title" itemprop="name" content="Structure de base HTML">
+        <meta name="twitter:description" property="og:description" itemprop="description" content="Présentation de la structure de base d'une page HTML">
+        <meta property="twitter:image" content="./assets/img/logo.png" />
+        <meta property="twitter:site" content="HTML5" />
+
+        <!-- Metadonnees Opengraph -->
+        <meta property="og:site_name" content="HTML5" />
+        <meta property="og:title" content="HTML5" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="./assets/img/logo.png" />
+        <meta property="og:url" content="https://html5.com" />
+
+        <!-- Icone/logo du site -->
+        <link href="photo.jpg" rel="icon">
+        <link href="photo.jpg" rel="icon" type="image/png" sizes="32x32" >
+        <link href="photo.jpg" rel="icon" type="image/png" sizes="16x16" >
+        <link href="photo.jpg" rel="apple-touch-icon">
+
+        <!-- Lien CSS -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>TP CV</title>
+    </head>
+    <body>
+        <div class="super_container">
+            <section class="left">
+                <div class="photo">
+                    <img src="photo.jpg" alt="photo">
+                </div>
+
+                <div class="contact">
+                    <h2>contact</h2>
+                    <div class="line"></div>
+                    <p>+(237) 695 674 827 <i class="fa-solid fa-phone"></i></p>
+                    <p>Paris, France <i class="far fa-envelope"></i></p>
+                    <p>prenom.nom@gmail.com <i class="fa fa-location-dot"></i></p>
+                    <p>/prenom.nom/ <i class="fab fa-linkedin-in"></i></p>
+                </div>
+
+                <div class="competences">
+                    <h2>compétences</h2>
+                    <div class="line"></div>
+                    <p>Communication digitale</p>
+                    <p>Gestion de projet</p>
+                    <p>Réseaux sociaux</p>
+                    <p>Événementiel</p>
+                </div>
+
+                <div class="langues">
+                    <h2>langues</h2>
+                    <div class="line"></div>
+                    <p>Français : Langue maternelle</p>
+                    <p>Anglais : Niveau avancé</p>
+                    <p>Espagnol : Niveau intermédiaire</p>
+                </div>
+
+                <div class="interet">       
+                    <h2>centres d'interet</h2>
+                    <div class="line"></div>
+                    <p>Equitation</p>
+                    <p>Bénévolat</p>
+                    <p>Musique</p>
+                </div>
+            </section>
+
+            <section class="right">
+                <div class="nom">
+                    <h1>Prénom NOM</h1>
+                    <h3>assistant de communication</h3>
+                    <p id="text">Professionnel de la communication spécialisée dans la gestion de projets événementiels et le développement de contenus attractifs sur les réseaux sociaux. Fort d'expériences dans des entreprises de renom.</p>
+                </div>
+
+                <div class="experience">
+                    <h2>expériences<br>professionnelles</h2>
+                    <div class="line"></div>
+                    <div>
+                        <h4>Assistant de Communication Digitale</h4>
+                        <p>Groupe Chanel - Paris, France</p>
+                        <span>Sept. 20XX - Feb. 20XX</span>
+                        <ul>
+                            <li>Coordination des campagnes de communication.</li>
+                            <li>Création de visuels et textes pour les réseaux sociaux.</li>
+                            <li>Participation à la mise en place d'un événement presse pour le lancement de nouveaux produits.</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4>Assistant Communication et Événementiel</h4>
+                        <p>Publicis Groupe - Paris, France</p>
+                        <span>Sept. 20XX - Feb. 20XX</span>
+                        <ul>
+                            <li>Conception et gestion de campagnes promotionnelles.</li>
+                            <li>Contribution à l'organisation d'événements virtuels.</li>
+                            <li>Veille concurrentielle et analyse des tendances.</li>
+                            <li>Recommandations stratégiques pour les clients.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Chargé de Communication</h4>
+                        <p>Hermès International - Paris, France</p>
+                        <span>Sept. 20XX - Feb. 20XX</span>
+                        <ul>
+                            <li>Élaboration de contenus pour les supports internes.</li>
+                            <li>Contribution au lancement de la ligne de maroquinerie.</li>
+                            <li>Gestion des relations presse garantissant une visibilité.</li>
+                            <li>Coordination de la logistique pour les événements VIP.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="formation">
+                    <h2>formation</h2>
+                    <div class="line"></div>
+
+                    <div>
+                        <h4>Master 1 en Communication et Médias</h4>
+                        <p>CELSA - Paris, France</p>
+                        <span>20XX - 20XX</span>
+                    </div>
+
+                    <div>
+                        <h4>Licence en Information et Communication</h4>
+                        <p>Université Sorbonne Nouvelle - Paris, France</p>
+                        <span>20XX - 20XX</span>
+                    </div>
+
+                    <div>
+                        <h4>Baccalauréat Littéraire</h4>
+                        <p>Lycée Victor Hugo - Paris, France</p>
+                        <span>20XX - 20XX</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

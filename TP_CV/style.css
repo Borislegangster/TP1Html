@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.super_container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 60%;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.line{
+    border: 1px solid black;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    margin-top: 0px !important;
+}
+
+.left .photo img{
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    float: right;
+}
+
+.left div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.left div p{
+    margin: 8px;
+}
+
+.right div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p, li{
+    color: #9e9c9c !important;
+    font-size: 15px;
+    text-transform: none;
+}
+
+i{
+    color: black !important;
+    font-size: 20px;
+}
+
+#text{
+    color: black !important;
+}
+
+.right p, li{
+    width: 85%;
+}
+
+li{
+    margin-left: 30px;
+}
+
+.experience div{
+    margin-top: 10px;
+}
+
+.formation div{
+    margin-top: 10px;
+}
+
+span{
+    font-size: 13px;
+}
